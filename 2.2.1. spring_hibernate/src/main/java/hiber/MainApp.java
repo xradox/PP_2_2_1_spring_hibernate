@@ -47,6 +47,8 @@ public class MainApp {
          System.out.println();
       }
 
+      System.out.println(userService.getUserByCarParams("BMW", 330));
+
       context.close();
    }
 }
